@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 
-export default function page() {
+export default function Page() {
   const isCheckLogin = true;
   const router = useRouter();
   const login = () => {
