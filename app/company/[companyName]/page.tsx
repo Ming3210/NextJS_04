@@ -6,7 +6,7 @@ interface IdProduct {
 interface Props {
   params: IdProduct;
 }
-export default function comapnyName(props: any) {
+export default function CompanyName(props: any) {
   console.log("props", props);
   const { params } = props;
   return <div>Company Name : {params.companyName}</div>;
