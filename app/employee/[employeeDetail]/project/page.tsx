@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import React, { useState } from "react";
 
-export default function page() {
+export default function Project() {
   const [employee, setEmployee] = useState([
     {
       Id: 1,
